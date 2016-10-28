@@ -1,0 +1,37 @@
+{
+  "name": "edmunds-api-limiter",
+  "version": "0.0.1",
+  "description": "Node.js client for the Edmunds public API with rate limiter. Based on node-edmunds-api ",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha --timeout 5000 test/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rfink/node-edmunds-api.git"
+  },
+  "keywords": [
+    "edmunds",
+    "api",
+    "node",
+    "js",
+    "http",
+    "client"
+  ],
+  "author": "Ryan Fink <ryanjfink@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rfink/node-edmunds-api/issues"
+  },
+  "homepage": "https://github.com/rfink/node-edmunds-api",
+  "dependencies": {
+    "superagent": "^0.18.0",
+    "limiter": "^1.1.0",
+    "fibers": "^1.0.15",
+    "underscore": "^1.6.0"
+  },
+  "devDependencies": {
+    "should": "^4.0.4",
+    "mocha": "^1.20.1"
+  }
+}
