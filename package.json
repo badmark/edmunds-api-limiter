@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/rfink/node-edmunds-api",
   "dependencies": {
-    "superagent": "^0.18.0",
+    "superagent": "3.7.0",
     "limiter": "^1.1.0",
     "fibers": "^1.0.15",
     "underscore": "^1.6.0"
